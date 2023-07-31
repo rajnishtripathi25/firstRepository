@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: aqua;
+    
+}
+.form{
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 10%;
+    padding: 5px 10px 10px 50px;
+    background-color: aquamarine;
+
+}
+input{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+table{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+
+}
+caption
+{
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+th,td{
+    width: 100px;
+    height: 50px;
+}
+tr:nth-child(odd) {
+    background-color: rgb(142, 209, 240);
+}
+.set{
+    margin: 10px;
+    padding: 10px;
+}
